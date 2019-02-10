@@ -14,7 +14,7 @@ types.json = [
 const descriptions = {
   null: { values: { js: ['null'], json: ['null'] } },
   boolean: { values: { js: ['false', 'true'], json: ['boolean'] } },
-  string: { values: { js: ['\'string\''], json: ['string'] } },
+  string: { values: { js: ['\'string\'', '\'0\'', '\'1\'', '\'0.1\'', '\'-1\'', '\'-0.1\''], json: ['string'] } },
   number: { values: { js: ['0', '1', '0.1', '-1', '-0.1', 'Number.NaN', 'Number.POSITIVE_INFINITY', 'Number.NEGATIVE_INFINITY'], json: ['number'] } },
   object: { values: { js: ['{}'], json: ['object'] } },
   array: { values: { js: ['[]'], json: ['array'] } },
