@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist",
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["es2015","es2016"],
+      "noImplicitAny": false,
+      "declaration": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
